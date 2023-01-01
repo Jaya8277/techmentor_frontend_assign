@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background: url('https://images.unsplash.com/photo-1672168473218-2425ce20d72e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1217&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ tr,th,td{
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 20px;
+
+
+}
+/* table> tr{
+  margin-left: 100px;
+} */
+button{
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 3px;
+  background-color:black ;
+  color: white;
+
+
+}
+th{
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  font-size: 25px;
+}
+table{
+  margin: auto;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 50px;
+  
+
+}
+input{
+  height:35px;
+  width:250px ;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+input::placeholder{
+  font-size: 16px;
+}
+.btn{
+  width: 100px;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.main{
+  border: 1px solid black;
+  width: 400px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  
+}
